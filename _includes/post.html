@@ -11,13 +11,13 @@
 	  </header>
 
 	  <article class="entry-body">
-	  	{% if content %}
-	  		{{ content }}
-  		{% else %}
+	  	{% if index %}
 	  		{{ page.excerpt }}
 	  		{% if page.content contains '<!-- more -->' %}
-	  		<p><a href="{{ page.url | prepend: site.baseurl }}">Read more »</a></p>
+	  		<p><a href="{{ page.url }}">Read more »</a></p>
 	  		{% endif %}
+  		{% else %}
+	  		{{ content }}
   		{% endif %}
 	  </article>
 
