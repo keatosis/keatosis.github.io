@@ -6,4 +6,4 @@ comments: false
 author_footer: false
 ---
 
-About page, add content here. 
+Hi, I am a geek in a seminary. And this is a place where I store some headstuff. 
